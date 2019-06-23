@@ -1,0 +1,33 @@
+/* Add your styles here */
+body{
+    background: rgb(205, 209, 209);
+    padding: 10px;
+
+}
+.header{
+    font-weight: bold;
+    font-size: larger;
+    text-align: left;
+}
+
+.navbar{
+    padding: 20px;
+    background: rgb(244, 246, 247);
+}
+
+#nav-select {
+    visibility: visible;
+}
+
+@media (max-width: 480px){
+    .navbar li {
+        padding: 10px;
+    }
+    .post {
+        margin-right: 30
+    }
+    .navbar ul {
+        visibility: visible;
+    }
+}
+
